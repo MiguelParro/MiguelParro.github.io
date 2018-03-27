@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+ <html lang="pt-PT">
+ <head>
+ <meta charset="utf-8" />
+ <link rel="icon" href="../images/icon.png" type="image/png" sizes="16x16">
+ <title>Grades - Miguel Parro</title>
+<link rel="stylesheet" type="text/css" href="../styles/pastel.css">
+ <script src="../scripts/dropdown.js"></script>
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("#header").load("../pages/header.html"); 
+  $("#footer").load("../pages/footer.html"); 
+});
+</script> 
+ </head>
+ <body>
+ <div id = "header"></div>
+</head>
+<body>
+<article>
+<h1>
+    Notas Licenciatura Engenharia Informática
+</h1>
+
+    <div>
+            <table class= "notas" border="4">
+                <tr>
+                    <th>Ano</th>
+                    <th>Semestre</th>
+                    <th>Cadeira</th>
+                    <th>Nota</th>
+                </tr>
+                <tr>
+                    <td rowspan="10">1ºano</td>
+                    <td rowspan="5">1ºSemestre</td>
+                    <td>MAT1</td>
+                    <td id = "nota"> 12 </td>
+                </tr>
+                <tr>
+                    <td>EG</td>
+                    <td id = "nota"> 10 </td>
+                </tr>
+                <tr>
+                    <td>MEC</td>
+                    <td id = "nota"> 14 </td>
+                </tr>
+                <tr>
+                    <td>LC</td>
+                    <td id = "nota"> 17 </td>
+                </tr>
+                <tr>
+                    <td>IPOO</td>
+                    <td id = "nota"> 12 </td>
+                </tr>
+                <tr>
+                    <td rowspan="5">2ºSemestre</td>
+                    <td>SOI</td>
+                    <td id = "nota"> 15 </td>
+                </tr>
+                <tr>
+                    <td>POO</td>
+                    <td id = "nota"> 11 </td>
+                </tr>
+                <tr>
+                    <td>BD</td>
+                    <td id = "nota"> 12 </td>
+                </tr>
+                <tr>
+                    <td>AN</td>
+                    <td id = "nota">13</td>
+                </tr>
+                <tr>
+                    <td>ATAD</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td rowspan="10">2ºAno</td>
+                    <td rowspan="5">1ºSemestre</td>
+                    <td>SO</td>
+                    <td id = "nota"> 14 </td>
+                </tr>
+                <tr>
+                    <td>MKTG</td>
+                    <td id = "nota"> 11 </td>
+                </tr>
+                <tr>
+                    <td>MD</td>
+                    <td id = "nota"> 11 </td>
+                </tr>
+                <tr>
+                    <td>CBD</td>
+                    <td id = "nota"> 13 </td>
+                </tr>
+                <tr>
+                    <td>PA</td>
+                    <td id = "nota"> 12 </td>
+                </tr>
+                <tr>
+                    <td rowspan="5">2ºSemestre</td>
+                    <td>PI</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>CD</td>
+                    <td id = "nota"> 11 </td>
+                </tr>
+                <tr>
+                    <td>PE</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>GRH</td>
+                    <td id = "nota"> 15 </td>
+                </tr>
+                <tr>
+                    <td>MSI</td>
+                    <td id = "nota"> 13 </td>
+                </tr>
+                <tr>
+                    <td rowspan="8">3ºAno</td>
+                    <td rowspan="5">1ºSemestre</td>
+                    <td>CG</td>
+                    <td id = "nota"> 11 </td>
+                </tr>
+                <tr>
+                    <td>ESW</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>IA</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>PV</td>
+                    <td id = "nota"> 12 </td>
+                </tr>
+                <tr>
+                    <td>RC</td>
+                    <td id = "nota"> 15 </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">2ºSemestre</td>
+                    <td>E/PIG</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>GP</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>GSI</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td colspan="3">Média</td>
+                        <td id = "result"></td>
+                        <script src="../scripts/averageCalc.js"></script>
+                    </tr>
+            </table>
+        </div>
+</article>
+<div id = "footer"></div>
+</body>
+</html>
